@@ -33,9 +33,9 @@ const AboutSection = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-4 text-foreground">My Journey</h3>
               <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                As a final-year undergraduate student in Computer Science and Engineering, 
-                I am highly motivated to apply my technical and analytical skills in real-world scenarios. 
-                My passion lies in the intersection of technology, data science, and artificial intelligence.
+                As a final-year undergraduate student in Computer Science and Engineering,
+                I am highly motivated to apply my technical and analytical skills in real-world scenarios.
+                My passion lies in the intersection of technology, software development, and artificial intelligence.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 I believe in continuous learning and am always eager to take on new challenges 

@@ -57,7 +57,7 @@ const HeroSection = () => {
               {/* Professional Tagline */}
               <div className="space-y-2 mb-8">
                 <h3 className="text-xl md:text-2xl text-primary-foreground/90 font-semibold">
-                  Data Analyst • AI Enthusiast • Problem Solver
+                  Software Developer • AI Enthusiast • Problem Solver
                 </h3>
                 <div className="w-20 h-1 bg-gradient-accent mx-auto lg:mx-0 rounded-full"></div>
               </div>

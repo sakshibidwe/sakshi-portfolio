@@ -42,7 +42,7 @@ const SkillsSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gradient-primary mb-4">Technical Skills</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A comprehensive toolkit for modern software development and data science
+            A comprehensive toolkit for modern software development and AI
           </p>
         </div>
 
