@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Download, ExternalLink } from 'lucide-react';
-import profileImageUrl from '@/assets/blazerimage.jpg';
+import profileImageUrl from '@/assets/sakshi-prtfolio.jpg';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -8,6 +8,15 @@ const HeroSection = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = 'https://drive.google.com/uc?export=download&id=1-eyK5sYsMw4mvZ4pGx-I1MexcWktQyFF';
+    link.download = 'Sakshi_Bidwe_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -85,9 +94,10 @@ const HeroSection = () => {
                 </span>
               </Button>
               
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="lg"
+                onClick={downloadResume}
                 className="bg-primary-foreground/10 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/20 backdrop-blur-sm group"
               >
                 <Download className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform duration-300" />
