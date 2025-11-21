@@ -7,7 +7,7 @@ const AboutSection = () => {
     description: "Clear and effective interaction"
   }, {
     icon: <Users className="h-5 w-5" />,
-    skill: "Teamwork",
+    skill: "Teamwork,Team Collaboration",
     description: "Collaborative problem solving"
   }, {
     icon: <Lightbulb className="h-5 w-5" />,
@@ -15,7 +15,7 @@ const AboutSection = () => {
     description: "Inspiring and guiding others"
   }, {
     icon: <Target className="h-5 w-5" />,
-    skill: "Problem-Solving",
+    skill: "Problem-Solving,Time Management",
     description: "Analytical thinking approach"
   }];
   return <section id="about" className="py-20 bg-background">

@@ -6,32 +6,38 @@ const SkillsSection = () => {
   const skillCategories = [
     {
       icon: <Code2 className="h-6 w-6" />,
-      title: "Programming & Databases",
-      skills: ["Python", "SQL", "Pandas", "NumPy", "Scikit-learn", "TensorFlow"],
+      title: "Programming Languages",
+      skills: [ "Java","Python","SQL","JavaScript"],
       color: "bg-primary/10 text-primary"
     },
     {
       icon: <Brain className="h-6 w-6" />,
-      title: "Machine Learning & AI",
-      skills: ["Supervised ML", "Unsupervised ML", "Deep Learning", "NLP", "Generative AI", "LLMs", "RAG"],
+      title: "Data Structures & Algorithms",
+      skills: ["Arrays", "Linked Lists", "Stacks", "Queues","Trees", "Graphs", "Heaps","Searching", "Sorting"],
       color: "bg-accent/10 text-accent"
     },
     {
       icon: <BarChart3 className="h-6 w-6" />,
-      title: "Statistics & Analytics",
-      skills: ["Probability", "Hypothesis Testing", "Regression", "Forecasting", "Time Series Analysis"],
+      title: "Databases",
+      skills: ["SQL","MySQL","Postgress", "NoSQL", "MongoDB","Firebase"],
       color: "bg-primary-light/10 text-primary-dark"
     },
     {
       icon: <Database className="h-6 w-6" />,
-      title: "Visualization & Tools",
-      skills: ["Matplotlib", "Seaborn", "PowerBI", "Data Visualization"],
+      title: "Version Control",
+      skills: ["Git & GitHub","Branching","pull requests","merge conflicts"],
       color: "bg-secondary/20 text-secondary-foreground"
     },
     {
       icon: <Wrench className="h-6 w-6" />,
-      title: "Development Tools",
-      skills: ["Git/GitHub", "Jupyter Notebook", "Version Control"],
+      title: "Frameworks",
+      skills: ["Frontend: React, Angular, Flutter (for mobile)","Backend: Node.js, Django, Spring Boot"],
+      color: "bg-muted text-muted-foreground"
+    },
+    {
+      icon: <Wrench className="h-6 w-6" />,
+      title: "Web Development Basics",
+      skills: ["HTML","CSS","JavaScript","API understanding (REST)"],
       color: "bg-muted text-muted-foreground"
     }
   ];
@@ -81,15 +87,15 @@ const SkillsSection = () => {
         <div className="mt-16 text-center">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-6">
-              <div className="text-3xl font-bold text-primary mb-2">5+</div>
+              <div className="text-3xl font-bold text-primary mb-2">3+</div>
               <p className="text-muted-foreground">Programming Languages</p>
             </div>
             <div className="p-6">
-              <div className="text-3xl font-bold text-accent mb-2">10+</div>
-              <p className="text-muted-foreground">ML/AI Frameworks</p>
+              <div className="text-3xl font-bold text-accent mb-2">4+</div>
+              <p className="text-muted-foreground">Developed Applications</p>
             </div>
             <div className="p-6">
-              <div className="text-3xl font-bold text-primary-dark mb-2">15+</div>
+              <div className="text-3xl font-bold text-primary-dark mb-2">10+</div>
               <p className="text-muted-foreground">Technical Tools</p>
             </div>
           </div>

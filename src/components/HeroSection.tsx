@@ -48,9 +48,9 @@ const HeroSection = () => {
                 Computer Science Engineer
               </h2>
               <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-                <span className="block">Sakshi</span>
+                <span className="block">SAKSHI</span>
                 <span className="block">
-                  <span className="text-gradient-accent">Bidwe</span>
+                  <span className="text-gradient-accent">BIDWE</span>
                 </span>
               </h1>
               
@@ -98,7 +98,7 @@ const HeroSection = () => {
             {/* Professional Stats */}
             <div className="flex flex-wrap gap-8 justify-center lg:justify-start pt-8 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary-foreground">2+</div>
+                <div className="text-2xl font-bold text-primary-foreground">4+</div>
                 <div className="text-primary-foreground/60 text-sm">Projects</div>
               </div>
               <div className="text-center">
@@ -107,7 +107,7 @@ const HeroSection = () => {
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary-foreground">Final Year</div>
-                <div className="text-primary-foreground/60 text-sm">B.E. Student</div>
+                <div className="text-primary-foreground/60 text-sm">BTech Student</div>
               </div>
             </div>
 
@@ -146,7 +146,7 @@ const HeroSection = () => {
                 {/* Professional Floating Elements */}
                 <div className="absolute top-4 right-4 w-4 h-4 bg-green-400 rounded-full border-2 border-primary-foreground animate-pulse shadow-lg"></div>
                 <div className="absolute bottom-8 -right-2 px-3 py-1 bg-primary-foreground/95 backdrop-blur-sm rounded-full shadow-lg">
-                  <span className="text-xs font-semibold text-primary">CS Engineer</span>
+                  <span className="text-xs font-semibold text-primary">Software Developer</span>
                 </div>
               </div>
             </div>
