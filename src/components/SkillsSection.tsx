@@ -19,7 +19,7 @@ const SkillsSection = () => {
     {
       icon: <BarChart3 className="h-6 w-6" />,
       title: "Databases",
-      skills: ["SQL","MySQL","Postgress", "NoSQL", "MongoDB","Firebase"],
+      skills: ["SQL","MySQL","PostgreSQL", "NoSQL", "MongoDB","Firebase"],
       color: "bg-primary-light/10 text-primary-dark"
     },
     {

@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Download, ExternalLink } from 'lucide-react';
-import profileImageUrl from '@/assets/sakshi-profile.jpg';
+import profileImageUrl from '@/assets/blazerimage.jpg';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {

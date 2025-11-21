@@ -1,0 +1,3 @@
+- [ ] Add text-gradient-primary class to src/index.css
+- [ ] Fix typos in src/components/SkillsSection.tsx: "Postgress" to "PostgreSQL", "pull requests" to "Pull Requests", "merge conflicts" to "Merge Conflicts"
+- [ ] Run lint to verify no errors
