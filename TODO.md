@@ -1,1 +1,4 @@
-- [x] Add download functionality to the "Download Resume" button in HeroSection.tsx using the provided Google Drive link
+# TODO: Remove Lovable Sign from Portfolio
+
+- [x] Remove componentTagger from vite.config.ts
+- [x] Update index.html to remove lovable.dev image references in meta tags
